@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with Computer</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="./images/Logo.png" id="logo">
+        <p id="logo-heading">Rock, Paper And Scissors</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./images/scissors.png">
+        </div>
+    </div>
+    <div class="scorecard">
+        <div class="player">
+            <p id="player-score">0</p>
+            <p>Player</p>
+        </div>
+        <div class="player">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="message-container">
+        <p class="message">Choose Rock, Paper or Scissors</p>
+        <button class="reset">New Game</button>
+    </div>
+    <script src="comp.js"></script>
+</body>
+</html>
